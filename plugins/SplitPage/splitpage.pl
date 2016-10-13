@@ -1,5 +1,6 @@
 # A plugin for adding "SplitPage" functionality.
-# Copyright (c) 2008 ARK-Web Co.,Ltd.
+# Copyright (c) 2016 ARK-Web Co.,Ltd.
+# MIT License
 
 package MT::Plugin::SplitPage;
 
