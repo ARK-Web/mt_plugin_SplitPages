@@ -10,7 +10,7 @@ use MT::Template::Context;
 use MT::I18N;
 
 use vars qw( $VERSION );
-$VERSION = '1.0';
+$VERSION = '2.0';
 
 use base qw( MT::Plugin );
 
@@ -23,11 +23,11 @@ our $SPLIT_PAGE_LISTS = '<!-- SplitPage PageLists -->';
 my $plugin = new MT::Plugin::SplitPage({
     id => 'SplitPage',
     name => 'SplitPage',
-    author_name => 'ARK-Web\'s MT Plugin Developers',
-    author_link => 'http://www.ark-web.jp/',
+    author_name => 'ARK-Web co., ltd.',
+    author_link => 'https://www.ark-web.jp/',
     version => $VERSION,
     description => 'ページ（エントリー、またはウェブページ）を本文中の任意の箇所で複数ページに分割するプラグイン',
-    doc_link => 'http://www.ark-web.jp/movabletype/',
+    plugin_link => 'https://github.com/ARK-Web/mt_plugin_SplitPages',
 });
 
 MT->add_plugin($plugin);
